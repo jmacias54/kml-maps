@@ -4,7 +4,7 @@
     <name>COMPLEJO COSTA LAS PERLAS (NAP 2)</name>
     <description>This is the location of my office.</description>
     <Point>
-      <coordinates>-79.46663100000001,9.022853,0</coordinates>
+      <coordinates>9.022853,-79.46663100000001,</coordinates>
     </Point>
   </Placemark>
 </kml>

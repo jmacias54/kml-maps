@@ -1,58 +1,62 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="initial-scale=1.0">
-    <meta charset="utf-8">
-    <title>KML Layers</title>
-    <style>
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-      #map {
-        float: left;
-        height: 100%;
-        width: 79%;
-      }
-      #content-window {
-        float: left;
-        font-family: 'Roboto','sans-serif';
-        height: 100%;
-        line-height: 30px;
-        padding-left: 10px;
-        width: 19%;
-      }
-    </style>
-  </head>
-  <body>
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta name="viewport" content="initial-scale=1.0">
+      <meta charset="utf-8">
+      <title>KML Feature Details</title>
+      <style>
+        html, body {
+          height: 100%;
+          margin: 0;
+          padding: 0;
+        }
+        #map {
+          float: left;
+          height: 100%;
+          width: 79%;
+        }
+        #content-window {
+          float: left;
+          font-family: 'Roboto','sans-serif';
+          height: 100%;
+          line-height: 30px;
+          padding-left: 10px;
+          width: 19%;
+        }
+      </style>
+    </head>
+    <body>
+      <div id="map"></div>
+      <div id="content-window"></div>
+      <script>
   
+        function initMap() {
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 12,
+            center: {lat: 37.06, lng: -95.68}
+          });
+  
+          var kmlLayer = new google.maps.KmlLayer({
+            url: 'https://github.com/jmacias54/kml-maps/blob/master/KMZ/placemark.kml',
+            suppressInfoWindows: true,
+            map: map
+          });
+  
+          kmlLayer.addListener('click', function(kmlEvent) {
+            var text = kmlEvent.featureData.description;
+            showInContentWindow(text);
+          });
+  
+          function showInContentWindow(text) {
+            var sidediv = document.getElementById('content-window');
+            sidediv.innerHTML = text;
+          }
+        }
+      </script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-YuTjBp_5HqcIkSUb8Xojd1PklM6rTZs&callback=initMap">
     </script>
-     <script>
-         var map;
-      var src = 'https://developers.google.com/maps/documentation/javascript/examples/kml/westcampus.kml';
-      var src_panama = 'https://github.com/jmacias54/kml-maps/blob/master/KMZ/COBERTURA%20GPON%20CLARO%20NOV2019.kml?time='+new Date().getTime();
-
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: new google.maps.LatLng(9.020728,-79.464694),
-          zoom: 10,
-          mapTypeId: google.maps.MapTypeId.HYBRID
-        });
-
-        var kmlLayer = new google.maps.KmlLayer({
-          url: 'http://googlemaps.github.io/kml-samples/kml/Placemark/placemark.kml',
-          suppressInfoWindows: true,
-          map: map
-        });
-      }
-
      </script>
-
-     <div id="map"></div>
-    <div id="content-window"></div>
-
-  </body>
-</html>
+    </body>
+  </html>
