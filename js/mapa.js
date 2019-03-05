@@ -23,12 +23,12 @@
 
       var map;
       var src = 'https://developers.google.com/maps/documentation/javascript/examples/kml/westcampus.kml';
-      var src_panama = 'https://cladmin-dev.tmx-internacional.net/portal/pa/cobertura/test.kml';
+      var src_panama = 'https://github.com/jmacias54/kml-maps/blob/master/KMZ/32856--COBERTURA_GPON_CLARO_NOV2019.kmz';
 
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           center: new google.maps.LatLng(9.020728,-79.464694),
-          zoom: 11,
+          zoom: 10,
           mapTypeId: 'terrain'
         });
 
