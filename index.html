@@ -33,7 +33,7 @@
      <script>
          var map;
       var src = 'https://developers.google.com/maps/documentation/javascript/examples/kml/westcampus.kml';
-      var src_panama = 'https://github.com/jmacias54/kml-maps/blob/master/KMZ/32856--COBERTURA_GPON_CLARO_NOV2019.kmz';
+      var src_panama = 'https://github.com/jmacias54/kml-maps/blob/master/KMZ/test.kml';
 
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
@@ -42,7 +42,7 @@
           mapTypeId: google.maps.MapTypeId.HYBRID
         });
 
-        var kmlLayer = new google.maps.KmlLayer(src, {
+        var kmlLayer = new google.maps.KmlLayer(src_panama, {
           suppressInfoWindows: true,
           preserveViewport: false,
           map: map
