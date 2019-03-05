@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Placemark>
-    <name>COMPLEJO COSTA LAS PERLAS (NAP 2)</name>
+    <name>My office</name>
     <description>This is the location of my office.</description>
     <Point>
-      <coordinates>9.022853,-79.46663100000001,</coordinates>
+      <coordinates>-79.464164,9.021231</coordinates>
     </Point>
   </Placemark>
 </kml>
