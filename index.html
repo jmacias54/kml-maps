@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>KML Layers</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        float: left;
+        height: 100%;
+        width: 79%;
+      }
+      #content-window {
+        float: left;
+        font-family: 'Roboto','sans-serif';
+        height: 100%;
+        line-height: 30px;
+        padding-left: 10px;
+        width: 19%;
+      }
+    </style>
+  </head>
+  <body>
+  
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-YuTjBp_5HqcIkSUb8Xojd1PklM6rTZs&callback=initMap">
+    </script>
+     <script async defer src="./js/mapa.js"></script>
+
+     <div id="map"></div>
+    <div id="content-window"></div>
+
+  </body>
+</html>

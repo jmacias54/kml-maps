@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>COBERTURA GPON CLARO NOV2019.kmz</name>
+	<Style id="sh_C">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/C.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="sn_C">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/C.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="sh_homegardenbusiness">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="sn_homegardenbusiness">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_homegardenbusiness">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_homegardenbusiness</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_homegardenbusiness</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_C">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_C</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_C</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer2">
+		<name>COBERTURA GPON CLARO</name>
+		<Placemark id="layerP6">
+			<name>COMPLEJO COSTA BELLA (NAP 1)</name>
+			<Snippet maxLines="2" id="s6">PPANPAB2GT0101-017/020</Snippet>
+			<LookAt>
+				<longitude>-79.464164</longitude>
+				<latitude>9.021231</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_C</styleUrl>
+			<Point>
+				<coordinates>-79.464164,9.021231,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP7">
+			<name>COMPLEJO COSTA BELLA (NAP 2)</name>
+			<Snippet maxLines="2" id="s7">PPANPAB2GT0101-021/024</Snippet>
+			<LookAt>
+				<longitude>-79.46469399999999</longitude>
+				<latitude>9.020728</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_C</styleUrl>
+			<Point>
+				<coordinates>-79.46469399999999,9.020728,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP8">
+			<name>COMPLEJO COSTA DORADA (NAP 1)</name>
+			<Snippet maxLines="2" id="s8">PPANPAB2GT0101-009/012</Snippet>
+			<LookAt>
+				<longitude>-79.46446899999999</longitude>
+				<latitude>9.023092</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_C</styleUrl>
+			<Point>
+				<coordinates>-79.46446899999999,9.023092,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP9">
+			<name>COMPLEJO COSTA DORADA (NAP 2)</name>
+			<Snippet maxLines="2" id="s9">PPANPAB2GT0101-013/016</Snippet>
+			<LookAt>
+				<longitude>-79.46567500000001</longitude>
+				<latitude>9.023128</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_C</styleUrl>
+			<Point>
+				<coordinates>-79.46567500000001,9.023128,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP10">
+			<name>COMPLEJO COSTA LAS PERLAS (NAP 1)</name>
+			<Snippet maxLines="2" id="s10">PPANPAB2GT0101-001/004</Snippet>
+			<LookAt>
+				<longitude>-79.46790300000001</longitude>
+				<latitude>9.023016999999999</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_C</styleUrl>
+			<Point>
+				<coordinates>-79.46790300000001,9.023016999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP11">
+			<name>COMPLEJO COSTA LAS PERLAS (NAP 2)</name>
+			<Snippet maxLines="2" id="s11">PPANPAB2GT0101-005/008</Snippet>
+			<LookAt>
+				<longitude>-79.46663100000001</longitude>
+				<latitude>9.022853</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_C</styleUrl>
+			<Point>
+				<coordinates>-79.46663100000001,9.022853,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP12">
+			<name>COMPLEJO TOSCANA DEL ESTE (NAP 1)</name>
+			<Snippet maxLines="2" id="s12">PPANPABUGT0101-001/004</Snippet>
+			<LookAt>
+				<longitude>-79.45823300000001</longitude>
+				<latitude>9.013617</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_C</styleUrl>
+			<Point>
+				<coordinates>-79.45823300000001,9.013617,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP13">
+			<name>PH. ALTAMAR DEL ESTE</name>
+			<Snippet maxLines="2" id="s13">PPANPABPGT0101-001/008</Snippet>
+			<LookAt>
+				<longitude>-79.474859</longitude>
+				<latitude>9.008751</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.474859,9.008751,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP14">
+			<name>PH. BAYSIDE</name>
+			<Snippet maxLines="2" id="s14">PPANPABPGT0101-009/016</Snippet>
+			<LookAt>
+				<longitude>-79.471615</longitude>
+				<latitude>9.009613</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.471615,9.009613,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP15">
+			<name>PH. BRISAS DE ESPAÑA_TORRE A</name>
+			<Snippet maxLines="2" id="s15">PPANPAGQGT0101-017/020</Snippet>
+			<LookAt>
+				<longitude>-79.51499800000001</longitude>
+				<latitude>9.000116</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.51499800000001,9.000116,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP16">
+			<name>PH. BRISAS_TORRE 1</name>
+			<Snippet maxLines="2" id="s16">PPANPAGQGT0101-009/012</Snippet>
+			<LookAt>
+				<longitude>-79.515062</longitude>
+				<latitude>8.9992</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.515062,8.9992,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP17">
+			<name>PH. BRISAS_TORRE 2</name>
+			<Snippet maxLines="2" id="s17">PPANPAGQGT0101-013/016</Snippet>
+			<LookAt>
+				<longitude>-79.51521700000001</longitude>
+				<latitude>8.999326999999999</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.51521700000001,8.999326999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP18">
+			<name>PH. COSTA PACIFICA_TORRE 300</name>
+			<Snippet maxLines="2" id="s18">PPANPAGFGT0101-001/008</Snippet>
+			<LookAt>
+				<longitude>-79.511044</longitude>
+				<latitude>8.979392000000001</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.511044,8.979392000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP19">
+			<name>PH. COSTA REAL TOWER</name>
+			<Snippet maxLines="2" id="s19">PPANPANIGT0101-001/008</Snippet>
+			<LookAt>
+				<longitude>-79.47135400000001</longitude>
+				<latitude>9.015878000000001</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.47135400000001,9.015878000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP20">
+			<name>PH. DAL MARE</name>
+			<Snippet maxLines="2" id="s20">PPANPAG0GT0101-001/008</Snippet>
+			<LookAt>
+				<longitude>-79.496746</longitude>
+				<latitude>9.000394999999999</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.496746,9.000394999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP21">
+			<name>PH. DIAMOND TOWER</name>
+			<Snippet maxLines="2" id="s21">PPANPAA6GT0101-001/008</Snippet>
+			<LookAt>
+				<longitude>-79.51351699999999</longitude>
+				<latitude>8.994337</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.51351699999999,8.994337,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP22">
+			<name>PH. ELMARE_TORRE 1000</name>
+			<Snippet maxLines="2" id="s22">PPANPAGKGT0101-001/008</Snippet>
+			<LookAt>
+				<longitude>-79.53303099999999</longitude>
+				<latitude>8.993938</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.53303099999999,8.993938,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP23">
+			<name>PH. ELMARE_TORRE 2000</name>
+			<Snippet maxLines="2" id="s23">PPANPAGKGT0101-008/016</Snippet>
+			<LookAt>
+				<longitude>-79.53295</longitude>
+				<latitude>8.994278</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.53295,8.994278,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP24">
+			<name>PH. KOLOSAL TOWER</name>
+			<Snippet maxLines="2" id="s24">PPANPAG6GT0101-001/008</Snippet>
+			<LookAt>
+				<longitude>-79.51270100000001</longitude>
+				<latitude>8.993548000000001</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.51270100000001,8.993548000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP25">
+			<name>PH. MARBELLA 47</name>
+			<Snippet maxLines="2" id="s25">PPANPABBGT0101-001/004</Snippet>
+			<LookAt>
+				<longitude>-79.520179</longitude>
+				<latitude>8.979199</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.520179,8.979199,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP26">
+			<name>PH. MANDALAY</name>
+			<Snippet maxLines="2" id="s26">PPANPAG5GT0101-001/004</Snippet>
+			<LookAt>
+				<longitude>-79.525751</longitude>
+				<latitude>8.988362</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.525751,8.988362,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP27">
+			<name>PH. MONT ROYALE_TORRE 100</name>
+			<Snippet maxLines="2" id="s27">PPANPAGJGT0101-001/008</Snippet>
+			<LookAt>
+				<longitude>-79.530822</longitude>
+				<latitude>8.990144000000001</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.530822,8.990144000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP28">
+			<name>PH. MONT ROYALE_TORRE 200</name>
+			<Snippet maxLines="2" id="s28">PPANPAGJGT0101-009/016</Snippet>
+			<LookAt>
+				<longitude>-79.530756</longitude>
+				<latitude>8.9899</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.530756,8.9899,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP29">
+			<name>PH. PORTO BELLO</name>
+			<Snippet maxLines="2" id="s29">PPANPAG1GT0101-001/004</Snippet>
+			<LookAt>
+				<longitude>-79.523901</longitude>
+				<latitude>8.990297</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.523901,8.990297,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP30">
+			<name>PH. RIVERSIDE</name>
+			<Snippet maxLines="2" id="s30">PPANPABOGT0101-017/027</Snippet>
+			<LookAt>
+				<longitude>-79.469836</longitude>
+				<latitude>9.010889000000001</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.469836,9.010889000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP31">
+			<name>PH. ROKAS_TORRE 100</name>
+			<Snippet maxLines="2" id="s31">PPANPAAYGT0101-001/008</Snippet>
+			<LookAt>
+				<longitude>-79.524247</longitude>
+				<latitude>9.028589</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.524247,9.028589,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP32">
+			<name>PH. SPLENDOR BY THE PARK</name>
+			<Snippet maxLines="2" id="s32">PPANPAAQGT0101-001/008</Snippet>
+			<LookAt>
+				<longitude>-79.509573</longitude>
+				<latitude>9.005297000000001</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.509573,9.005297000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP33">
+			<name>PH. SOLARIS</name>
+			<Snippet maxLines="2" id="s33">PPANPAAJGT0101-001/008</Snippet>
+			<LookAt>
+				<longitude>-79.52885000000001</longitude>
+				<latitude>8.986219999999999</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.52885000000001,8.986219999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP34">
+			<name>PH. SUNFLOWER TOWER</name>
+			<Snippet maxLines="2" id="s34">PPANPAGQGT0101-001/008</Snippet>
+			<LookAt>
+				<longitude>-79.51361300000001</longitude>
+				<latitude>9.000795</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.51361300000001,9.000795,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP35">
+			<name>PH. TERRAZAS DEL REY_TORRE 100</name>
+			<Snippet maxLines="2" id="s35">PPANPAGYGT0101-001/008</Snippet>
+			<LookAt>
+				<longitude>-79.525126</longitude>
+				<latitude>9.026434</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.525126,9.026434,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP36">
+			<name>PH. TERRAZAS DEL REY_TORRE 200</name>
+			<Snippet maxLines="2" id="s36">PPANPAGYGT0101-009/016</Snippet>
+			<LookAt>
+				<longitude>-79.52480300000001</longitude>
+				<latitude>9.025976</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.52480300000001,9.025976,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP37">
+			<name>PH. TERRAZAS DEL REY_TORRE 300</name>
+			<Snippet maxLines="2" id="s37">PPANPAGYGT0101-017/024</Snippet>
+			<LookAt>
+				<longitude>-79.524511</longitude>
+				<latitude>9.026142999999999</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.524511,9.026142999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP38">
+			<name>PH. TERRAZAS DEL REY_TORRE 400</name>
+			<Snippet maxLines="2" id="s38">PPANPAGYGT0101-025/032</Snippet>
+			<LookAt>
+				<longitude>-79.524759</longitude>
+				<latitude>9.026647000000001</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.524759,9.026647000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP39">
+			<name>PH. TITANIUM</name>
+			<Snippet maxLines="2" id="s39">PPANPABOGT0101-001/008</Snippet>
+			<LookAt>
+				<longitude>-79.470384</longitude>
+				<latitude>9.011633</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.470384,9.011633,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="layerP40">
+			<name>PH. VITRI</name>
+			<Snippet maxLines="2" id="s40">PPANPANPGT0101-001/016</Snippet>
+			<LookAt>
+				<longitude>-79.46390700000001</longitude>
+				<latitude>9.010552000000001</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-79.46390700000001,9.010552000000001,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
