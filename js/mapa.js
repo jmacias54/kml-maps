@@ -1,45 +1,56 @@
-
-       /*
-
-      function initMap() {
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 8,
-          mapTypeId: google.maps.MapTypeId.ROADMAP,
-          center: {lat: 8.376803, lng: -82.3504809}
-        });
-
-       
-        var ctaLayer = new google.maps.KmlLayer({
-          url: 'http://googlemaps.github.io/js-v2-samples/ggeoxml/cta.kml',
-          map: map
-        });
-        
-
-        var kmzLayer = new google.maps.KmlLayer('https://cladmin-dev.tmx-internacional.net/portal/pa/cobertura/doc.kml');
-        kmzLayer.setMap(map);
-      }
-*/
+function initMap() {
 
 
-      var map;
-      var src = 'https://developers.google.com/maps/documentation/javascript/examples/kml/westcampus.kml';
-      var src_panama = 'https://github.com/jmacias54/kml-maps/blob/master/KMZ/32856--COBERTURA_GPON_CLARO_NOV2019.kmz';
+  var infowindow = null;
 
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: new google.maps.LatLng(9.020728,-79.464694),
-          zoom: 10,
-          mapTypeId: 'terrain'
-        });
+  var map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 7,
+    center: { lat: 9.02, lng: -79.46 },
+    mapTypeId: google.maps.MapTypeId.HYBRID
+  });
 
-        var kmlLayer = new google.maps.KmlLayer(src_panama, {
-          suppressInfoWindows: true,
-          preserveViewport: false,
-          map: map
-        });
-        kmlLayer.addListener('click', function(event) {
-          var content = event.featureData.infoWindowHtml;
-          var testimonial = document.getElementById('capture');
-          testimonial.innerHTML = content;
-        });
-      }
+  map.set('styles', [{
+    featureType: "poi.business",
+    elementType: "all",
+    stylers: [
+    { visibility: "off" }
+    ]
+  }]);
+
+  var kmlLayer = new google.maps.KmlLayer({
+    url:
+      "https://sites.google.com/site/kmlexamplepanama/home/test/COBERTURA_GPON_CLARO_NOV2019.kml?revision=1",
+    suppressInfoWindows: true,
+    map: map
+  });
+
+  kmlLayer.addListener("click", function(kmlEvent) {
+    /*
+    var text = kmlEvent.featureData.infoWindowHtml;
+    var name = kmlEvent.featureData.name;
+    showInContentWindow(text,name);7
+    */
+   infowindow = new google.maps.InfoWindow();
+   infowindow.setContent('<p align="center">Cargando...</p><p align="center"><i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i></p>');
+
+   setTimeout(function() {
+    infowindow.setContent(kmlEvent.featureData.name);
+    
+    }, 5000);
+  
+    infowindow.setPosition(kmlEvent.latLng);
+    infowindow.open(map);
+
+    
+  });
+
+  function showInContentWindow(text,name) {
+    var sidediv = document.getElementById("content-window");
+    var titlediv = document.getElementById("title-window");
+    $('#myModal').modal('show'); 
+    sidediv.innerHTML = text;
+    titlediv.innerHTML = name;
+  }
+
+ 
+}

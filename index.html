@@ -1,12 +1,23 @@
+<!DOCTYPE html>
+<html>
 
-  <!DOCTYPE html>
-  <html>
-    <head>
-      <meta name="viewport" content="initial-scale=1.0">
-      <meta charset="utf-8">
-      <title>KML Feature Details</title>
-      <style>
-        html, body {
+<head>
+  <meta name="viewport" content="initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>KML Feature Details</title>
+  <script src="./js/lib/jquery.min.js"></script>
+  <script src="./js/lib/jquery-ui.min.js"></script>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <style>
+    html, body {
           height: 100%;
           margin: 0;
           padding: 0;
@@ -14,7 +25,7 @@
         #map {
           float: left;
           height: 100%;
-          width: 79%;
+          width: 100%;
         }
         #content-window {
           float: left;
@@ -22,43 +33,44 @@
           height: 100%;
           line-height: 30px;
           padding-left: 10px;
-          width: 19%;
+          width: 100%;
+        }    
+        #title-window {
+          float: left;
+          font-family: 'Roboto','sans-serif';
+          height: 100%;
+          line-height: 30px;
+          padding-left: 10px;
+          width: 100%;
         }
       </style>
-    </head>
-    <body>
-      <div id="map"></div>
-      <div id="content-window"></div>
-      <script>
-  
-        function initMap() {
-          var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 12,
-            center: {lat: 9.02, lng: -79.46}
-          });
+</head>
 
-         // 9.021231,-79.464164
+<body>
+  <div id="map"></div>
   
-          var kmlLayer = new google.maps.KmlLayer({
-            url: 'https://github.com/jmacias54/kml-maps/blob/master/KMZ/placemark.kml',
-            suppressInfoWindows: true,
-            map: map
-          });
+  <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title"><div id="title-window"></div></h5>
+        </div>
+        <div class="modal-body">
+            <div id="content-window"></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   
-          kmlLayer.addListener('click', function(kmlEvent) {
-            var text = kmlEvent.featureData.description;
-            showInContentWindow(text);
-          });
-  
-          function showInContentWindow(text) {
-            var sidediv = document.getElementById('content-window');
-            sidediv.innerHTML = text;
-          }
-        }
-      </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-YuTjBp_5HqcIkSUb8Xojd1PklM6rTZs&callback=initMap">
-    </script>
-     </script>
-    </body>
-  </html>
+  <script src="./js/mapa.js">
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-YuTjBp_5HqcIkSUb8Xojd1PklM6rTZs&callback=initMap">
+  </script>
+  </script>
+</body>
+
+</html>

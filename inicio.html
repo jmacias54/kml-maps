@@ -1,0 +1,31 @@
+<html>
+ 
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<script src="http://geoxml3.googlecode.com/svn/branches/polys/geoxml3.js"></script>
+<script src="http://geoxml3.googlecode.com/svn/trunk/ProjectedOverlay.js"></script>
+ 
+<script
+src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&key=AIzaSyB-YuTjBp_5HqcIkSUb8Xojd1PklM6rTZs">
+</script>   
+<script>
+	
+        function initialize() {
+	
+            var options = {
+                center: new google.maps.LatLng(-34.397, 150.644),
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+		    
+            var map = new google.maps.Map(document.getElementById("canvas"), options);
+            var parser = new geoXML3.parser({map: map, processStyles: true});
+            parser.parse("./KMZ/COBERTURA GPON CLARO NOV2019.kml");
+        }
+	    
+        $(document).ready(initialize);
+	    
+    </script>
+	
+    <div id="canvas" style="width:500px; height:500px"></div>
+	
+<html>
